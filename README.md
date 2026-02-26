@@ -1,71 +1,49 @@
-# 🚀 Mi Trayectoria en Data Science - Oracle Next Education (ONE) Generación 9
+# 📊 Challenge Data Science - Alura Store Latam
 
-¡Bienvenido a mi repositorio! 👋  
-Este espacio está dedicado a documentar mi aprendizaje, proyectos y avances durante el programa **Oracle Next Education (ONE) Generación 9**, en el track de **Data Science**.  
+## 📝 Descripción del Proyecto
+Este proyecto es la solución al primer desafío de Data Science de Alura Latam. El objetivo principal es analizar el rendimiento comercial de una cadena de cuatro sucursales (Alura Store) para asesorar al Sr. Juan, el propietario, en una decisión estratégica: **¿Qué tienda debería vender para financiar un nuevo emprendimiento?**
 
-Aquí encontrarás desde las primeras bases de programación hasta el desarrollo de proyectos aplicados en ciencia de datos, con el objetivo de consolidar mis habilidades y compartir mi progreso con la comunidad.
+A través de la manipulación de datos y la creación de visualizaciones, evaluamos diversas métricas clave para identificar la sucursal con el rendimiento más bajo y justificar la recomendación final.
 
----
+## 🛠️ Tecnologías y Herramientas Utilizadas
+* **Lenguaje:** Python 3
+* **Manipulación y Análisis de Datos:** `pandas`
+* **Visualización de Datos:** `matplotlib`, `seaborn`
+* **Entorno de Desarrollo:** Jupyter Notebook / Google Colab
 
-## 📚 Contenidos
+## 📂 Estructura de los Datos
+El análisis se nutre de 4 bases de datos en formato CSV (`tienda_1.csv`, `tienda_2.csv`, `tienda_3.csv`, `tienda_4.csv`). Cada archivo contiene un registro detallado de las ventas, incluyendo:
+* Información del producto (Nombre, Categoría, Precio).
+* Logística (Costo de envío, Lugar de compra, Coordenadas).
+* Métricas de satisfacción (Calificación del cliente).
+* Detalles de transacción (Fecha, Vendedor, Método de pago, Cuotas).
 
-A lo largo de este repositorio, iré organizando los módulos y proyectos en los que trabaje durante el programa:
+## 📈 Análisis Realizados
+El notebook documenta paso a paso la exploración de los datos, estructurada en los siguientes hitos:
+1. **Análisis de facturación:** Comparativa de los ingresos totales generados por cada tienda.
+2. **Ventas por categoría:** Identificación de las categorías que generan más ingresos, con foco en la tienda de menor rendimiento.
+3. **Calificación promedio:** Evaluación de la satisfacción del cliente en cada sucursal (escala 1-5).
+4. **Productos más y menos vendidos:** Análisis de la rotación de inventario.
+5. **Envío promedio por tienda:** Comparativa de los costos logísticos asumidos en las transacciones de cada sucursal.
 
-1. **Fundamentos de Programación**  
-   - Lógica de programación  
-   - Python básico  
+## 💡 Conclusión y Recomendación
+Tras cruzar las métricas de volumen de ventas, ingresos, satisfacción del cliente y costos logísticos, **la recomendación analítica es vender la Tienda 4**. 
 
-2. **Análisis de Datos**  
-   - Manipulación de datos con `pandas`  
-   - Visualización de datos con `matplotlib` y `seaborn`  
-   - Estadística aplicada  
+**Justificación clave:**
+* Presenta la **facturación más baja** de toda la cadena, quedando más de $112 millones por debajo de la tienda líder.
+* Atrae ventas con un **ticket promedio de menor valor** en comparación con las otras sucursales, a pesar de mantener un volumen de transacciones similar.
+* No destaca en métricas críticas de retención como la calificación promedio frente a sus contrapartes.
 
-3. **Machine Learning**  
-   - Modelos supervisados y no supervisados  
-   - Evaluación de modelos  
-   - Introducción a `scikit-learn`  
+## 🚀 Cómo ejecutar el proyecto
+1. Clona este repositorio o descarga los archivos.
+2. Asegúrate de tener instaladas las librerías necesarias: `pip install pandas matplotlib seaborn`
+3. Abre el archivo `AluraStoreLatam.ipynb` en tu entorno preferido (Jupyter Notebook, JupyterLab o Google Colab).
+4. Ejecuta las celdas secuencialmente para observar la transformación de los datos y las gráficas generadas.
 
-4. **Proyectos Prácticos**  
-   - Casos reales aplicados a datasets  
-   - Desarrollo de notebooks documentados  
-   - Análisis de resultados y aprendizajes  
-
----
-
-## 🎯 Objetivo
-
-El propósito de este repositorio es **registrar mi evolución como Data Scientist**, compartir mis proyectos y generar un portafolio que muestre mis competencias técnicas y analíticas.  
-
-Además, busco que este repositorio sea una herramienta de inspiración para otras personas que estén iniciando su camino en la ciencia de datos. ✨
-
----
-
-## 🛠️ Tecnologías y Herramientas
-
-- **Lenguajes:** Python  
-- **Librerías principales:** Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn  
-- **Entornos:** Jupyter Notebook, Google Colab  
-- **Control de versiones:** Git & GitHub  
-
----
-
-## 📌 Cómo está organizado el repositorio
-
-- Cada carpeta corresponde a un **módulo o proyecto** específico.  
-- Dentro encontrarás notebooks, datasets (cuando sea posible compartirlos) y documentación complementaria.  
-- El progreso se actualizará conforme avance en el programa.  
-
----
 
 ## 👨‍💻 Autor
 
-**Irvin Soriano**  
-- Estudiante de Ingeniería en Inteligencia Artificial - ESCOM IPN
-- Data Science Student en Oracle Next Education - Generación 9 Especialización en Data Science 
-- Apasionado por el análisis de datos, el aprendizaje automático y la aplicación de la IA en la vida real.  
+**Irving Soriano** Estudiante de la Licenciatura en Ciencia de Datos en ESCOM (IPN).
 
-📫 Puedes contactarme en: www.linkedin.com/in/irving-soriano
-
----
-
-✨ *"El aprendizaje es un viaje, no un destino. Este repositorio es parte del mío en el mundo de Data Science."*
+📫 **Contacto y Redes:**
+* **LinkedIn:** [Irving Soriano](https://www.linkedin.com/in/irving-soriano)
